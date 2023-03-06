@@ -36,4 +36,4 @@ jobs:
           appId: ${{secrets.FIREBASE_APP_ID_STAGING}}
           token: ${{secrets.FIREBASE_TOKEN}}
           groups: testers
-          file: /home/runner/work/{YOUR_REPO}/{YOUR_REPO}/build/app/outputs/flutter-apk/app-release.apk
+          file: /home/runner/work/firebase_example/firebase_example/build/app/outputs/flutter-apk/app-release.apk
