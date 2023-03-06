@@ -61,7 +61,7 @@ android {
         release {
             // TODO: Add your own signing config for the release build.
             // Signing with the debug keys for now, so `flutter run --release` works.
-            signingConfig {
+            signingConfigs {
                 if (System.getenv("ANDROID_KEYSTORE_PATH")) {
                     release {
                         storeFile file(System.getenv("ANDROID_KEYSTORE_PATH"))
