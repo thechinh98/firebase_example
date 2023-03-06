@@ -3,7 +3,7 @@ on:
   push:
     branches:
 #        - main
-        - 'release/xx'
+        - 'release/**'
 jobs:
   build:
     runs-on: ubuntu-latest
